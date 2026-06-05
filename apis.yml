@@ -10,23 +10,25 @@ x-category: "Games & Comics"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Games And Comics
-  - Public APIs
+- Games And Comics
+- Public APIs
 apis:
-  - name: GraphQL Pokemon
-    description: "GraphQL powered Pokemon API. Supports generations 1 through 8"
-    humanURL: https://github.com/favware/graphql-pokemon
-    baseURL: https://github.com/favware/graphql-pokemon
-    tags:
-      - Games And Comics
-    properties:
-      - type: Documentation
-        url: https://github.com/favware/graphql-pokemon
-common:
-  - type: Website
+- name: GraphQL Pokemon
+  description: "GraphQL powered Pokemon API. Supports generations 1 through 8"
+  humanURL: https://github.com/favware/graphql-pokemon
+  baseURL: https://github.com/favware/graphql-pokemon
+  tags:
+  - Games And Comics
+  properties:
+  - type: Documentation
     url: https://github.com/favware/graphql-pokemon
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+  - url: graphql/graphql-pokemon-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://github.com/favware/graphql-pokemon
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
