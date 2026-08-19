@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphql-po
 name: GraphQL Pokemon
 description: "GraphQL powered Pokemon API. Supports generations 1 through 8"
 url: https://github.com/favware/graphql-pokemon
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
